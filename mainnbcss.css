@@ -283,6 +283,18 @@ ol li {
 	line-height: 0em;
 }
 
+.callout-intro {
+	font-size: 1.7em;
+	border-bottom: 4px solid;
+	padding: 0 5px 0px;
+	margin-top: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	color:#40bf40;
+	line-height: 0em;
+}
+
 .callout-services {
 	font-size: 1.7em;
 	border-bottom: 4px solid;
