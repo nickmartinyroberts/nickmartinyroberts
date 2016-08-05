@@ -272,9 +272,9 @@ ol li {
 }
 
 .callout {
-	font-size: 1.25em;
+	font-size: 1.7em;
 	border-bottom: 4px solid;
-	padding: 0 5px 1px;
+	padding: 0 5px 0px;
 	margin-top: 20px;
 	display: inline-block;
 	text-transform: uppercase;
