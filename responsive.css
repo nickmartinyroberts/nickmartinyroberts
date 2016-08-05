@@ -1,0 +1,1330 @@
+/**Media Queries for Responsive Web Design**/
+
+@media screen and (max-width:480px){
+
+* {
+	box-sizing: border-box;
+}
+
+
+/** Type Selectors **/
+
+body {
+	font-size: 1em;
+	margin:0;
+	padding: 0;
+}
+
+header {
+	background-color: orange;
+	width: 100%;
+	margin-top: -25px;
+	background-image: url('IMG/backgrounds/kaboompics.com_In front of desk II.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 90%;
+	height:600px;
+	margin:auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 1em;
+}
+
+h1, h2 {
+	font-weight: normal;
+	color:white;
+	font-family: 'Italiana', serif;
+
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.8em;
+	padding: 10px 0 0 0;
+}
+
+h2 span {
+	/*border-bottom: solid 3px;*/
+	font-weight: normal;
+	color:white;
+	font-family: 'Italiana', serif;
+}
+
+h3 span {
+	/*background-color:#C6C6C7;*/
+	display: inline-block;
+	padding: 2px 5px;
+	font-weight: normal;
+	border-bottom: 4px solid;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'Italiana', serif;
+	font-size: 0.85em;
+	color:#00264d;
+}
+
+h4 {
+	font-size: 3em;
+	font-style: normal;
+	border-bottom: 3px solid;
+	display: inline;;
+}
+
+input {
+	text-align: center;
+	font-family: 'Italiana', serif;
+	font-size: 1em;
+	color: slategrey;
+	border: 1.5px solid;
+}
+
+footer{
+	clear: both;
+	border-bottom: 10px solid #F97F61;
+	text-align: center;
+	margin-top:70px;
+	font-family: 'Italiana', serif;
+	font-size: 0.7em;
+}
+
+footer span {
+	font-size: 0.5em;
+	font-family: 'Italiana', serif;
+}
+
+/** Navigation **/
+
+nav {
+
+}
+
+ul {
+	padding: 10px;
+	text-align: center;
+	clear:both;
+/*	margin-top: -44px;*/
+color: white;
+
+}
+
+ul li {
+	display: inline;
+	padding: 5px;
+	margin: 0 10px;
+	font-size: 1.5em;
+	color:slategrey;
+	font-family: 'Italiana', serif;
+	font-weight:normal;
+}
+
+ul li img {
+	width:40px;
+	padding: 0 10px;
+
+}
+
+ol {
+	background-color: black;
+}
+
+ol li {
+	display: block;
+	background-color: yellow;
+}
+
+/** Class selectors **/
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	text-align:center;
+	font-size: 1em;
+}
+
+.NMR-title {
+	padding-bottom: 20px;
+	padding-top: 100px;
+/*	border-bottom: 3px solid;*/
+	display:inline-block;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.arrow {
+	display:block;
+	padding-bottom: 200px;
+	margin:0 auto;
+	width: 60px;
+}
+
+.intro {
+	text-align: center;
+	width: 100%;
+	margin: 2% auto 2%;
+	padding-bottom: 10px;
+	border-bottom:2px solid #F97F61;
+	border-top: 2px solid #F97F61;
+	font-size: 1em;
+	color: slategrey;
+	font-family: 'Italiana', serif;
+}
+
+.services {
+
+	background-color: #bfbfbf;
+	clear: both;
+	border-top: 5px solid #F97F61;
+	width:100%;
+	height: 600px;
+	margin: 2% auto 2%;
+	color:white;
+	font-family: 'Italiana', serif;
+	padding: 2% 0 2%;
+	clear: both;
+}
+
+.service-icon {
+	width:70px;
+
+}
+
+.serviceshead {
+	font-size: 1em;
+/*	border-bottom: 2px solid;*/
+	display: inline;
+	padding-top:30px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	color:#F97F61;
+	line-height: 0em;
+}
+
+.secondary-post {
+	text-align: center;
+	width: 100%;
+	margin: 2% auto 2%;
+	padding-bottom: 10px;
+	border-top: 2px solid #F97F61;
+	border-bottom:2px solid #F97F61;
+	/*border-bottom: 2px solid #F97F61;*/
+/*	float:left;*/
+	font-size: 1em;
+	color: slategrey;
+	font-family: 'Italiana', serif;
+}
+
+.blog-icon {
+	padding-top:2%;
+	width: 90px;
+}
+
+/*.aside-bar {
+	float:right;
+	width:30%;
+	margin: 2% 0;
+	display: block;
+	font-size: 1.2em;
+	background-color: yellow;
+}*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.like-button {
+	margin: 2% auto 0;
+	display:block;
+	color:#00264d;
+	padding: 5px 15px;
+	font-size:0.8em;
+	font-family: 'Italiana', serif;
+}
+
+.submit-button {
+	margin: 2% auto 0;
+	display:block;
+	color:#00264d;
+	padding: 10px 20px;
+	font-size:1em;
+	font-family: 'Italiana', serif;
+}
+
+.fp-gallery {
+	background-image: url('IMG/Gallery/galleryimg.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 90%;
+	clear: both;
+	border-top: 5px solid #F97F61;
+	width:100%;
+	height: 500px;
+	margin: 2% auto 2%;
+	color:white;
+	/*font-family: 'Italiana', serif;*/
+	padding: 2% 0 2%;
+}
+
+.form {
+	border-top: 2px solid #F97F61;
+}
+
+.callout {
+	font-size: 1.25em;
+	border-bottom: 4px solid;
+	padding: 0 5px 1px;
+	margin-top: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	color:#40bf40;
+	line-height: 0em;
+}
+
+.callout-services {
+	font-size: 1.25em;
+	border-bottom: 4px solid;
+	padding: 0 5px 1px;
+	margin-top: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	line-height: 0em;
+}
+
+.callout-gallery {
+	font-size: 1.7em;
+	border-bottom: 4px solid;
+	padding-top:42%;
+	margin-top: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	color:#00264d;
+	line-height: 0em;
+}
+
+.contact-information {
+	color: slategrey;
+	text-align:center;
+	font-size: 0.7em;
+	margin:2% auto 2%;
+}
+
+
+/*.officemap {
+	display: block;
+	text-align: center;
+}*/
+
+/** ID Class **/
+
+/*#archive-blog-header {
+	background-color: #F97F61;
+	padding: 2px 5px;
+	font-weight: normal;
+}*/
+
+#sub-header {}
+
+#web-dev-ser {
+	width: 40%;
+	float:left;
+	padding: 5% 0 0 10%;
+}
+
+#mar-ser {
+	width:40%;
+	float: right;
+	padding: 5% 10% 0 0;
+}
+
+#calloutrepeat {
+	font-size: 1.25em;
+	border-bottom: 4px solid;
+	padding: 0 5px 1px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-family: 'Italiana', serif;
+	color:#00264d;
+}
+
+#img-left {
+	width: 30%;
+	float:left;
+	padding: 5% 0 0 5%;
+}
+
+#img-right {
+	width:30%;
+	float: right;
+	padding: 5% 5% 0 0;
+}
+
+#img-center {
+	width:30%;
+	height:80%;
+	padding:0;
+}
+
+#googleMap { 
+	max-width:100%;
+	width: 80%; 
+	height: 100%; 
+	margin: 2% auto 2%; 
+	display:block
+}
+
+#firstnameform {
+	padding: 10px 80px;
+	margin: 2% 0 10px;
+}
+
+#surnameform {
+	padding: 10px 80px;
+	margin: 5px 0 10px;
+}
+
+#emailform {
+	padding: 10px 80px;
+	margin: 5px 0 10px;
+}
+
+#telephoneform {
+	padding: 10px 80px;
+	margin: 5px 0 10px;
+}
+
+#facebook {
+	width:40px;
+	text-align:center;
+}
+
+
+#twitter {
+	width: 40px;
+	text-align:center;
+}
+
+
+
+/** Pseudo Classes */
+
+a:link {
+	text-decoration: none;
+	color: #336699;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #336699;
+}
+
+a:hover {
+	color: #F97F61;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:480px){
+
+* {
+	box-sizing: border-box;
+}
+
+
+/** Type Selectors **/
+
+body {
+	font-size: 1em;
+	margin:0;
+	padding: 0;
+}
+
+header {
+	background-color: orange;
+	width: 100%;
+	margin-top: -25px;
+	background-image: url('IMG/backgrounds/kaboompics.com_In front of desk II.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 90%;
+	height:800px;
+	margin:auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3.5em;
+	line-height: 1em;
+}
+
+h1, h2 {
+	font-weight: normal;
+	color:white;
+	font-family: 'Italiana', serif;
+
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.8em;
+	padding: 10px 0 0 0;
+}
+
+h2 span {
+	/*border-bottom: solid 3px;*/
+	font-weight: normal;
+	color:white;
+	font-family: 'Italiana', serif;
+}
+
+h3 span {
+	/*background-color:#C6C6C7;*/
+	display: inline-block;
+	padding: 2px 5px;
+	font-weight: normal;
+	border-bottom: 4px solid;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'Italiana', serif;
+	font-size: 0.85em;
+	color:#00264d;
+}
+
+h4 {
+	font-size: 3em;
+	font-style: normal;
+	border-bottom: 3px solid;
+	display: inline;;
+}
+
+input {
+	text-align: center;
+	font-family: 'Italiana', serif;
+	font-size: 1em;
+	color: slategrey;
+	border: 1.5px solid;
+}
+
+footer{
+	clear: both;
+	border-bottom: 10px solid #F97F61;
+	text-align: center;
+	margin-top:70px;
+	font-family: 'Italiana', serif;
+	font-size: 0.7em;
+}
+
+footer span {
+	font-size: 0.5em;
+	font-family: 'Italiana', serif;
+}
+
+/** Navigation **/
+
+nav {
+
+}
+
+ul {
+	padding: 10px;
+	text-align: center;
+	clear:both;
+/*	margin-top: -44px;*/
+color: white;
+
+}
+
+ul li {
+	display: inline;
+	padding: 5px;
+	margin: 0 10px;
+	font-size: 1.5em;
+	color:slategrey;
+	font-family: 'Italiana', serif;
+	font-weight:normal;
+}
+
+ul li img {
+	width:40px;
+	padding: 0 10px;
+
+}
+
+ol {
+	background-color: black;
+}
+
+ol li {
+	display: block;
+	background-color: yellow;
+}
+
+/** Class selectors **/
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	text-align:center;
+	font-size: 1em;
+}
+
+.NMR-title {
+	padding-bottom: 20px;
+	padding-top: 200px;
+	border-bottom: 3px solid;
+	display:inline-block;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.arrow {
+	display:block;
+	padding-bottom: 200px;
+	margin:0 auto;
+	width: 60px;
+}
+
+.intro {
+	text-align: center;
+	width: 80%;
+	margin: 2% auto 2%;
+	padding-bottom: 10px;
+	border-bottom:2px solid #F97F61;
+	border-top: 2px solid #F97F61;
+	font-size: 1em;
+	color: slategrey;
+	font-family: 'Italiana', serif;
+}
+
+.services {
+
+	background-color: #bfbfbf;
+	clear: both;
+	border-top: 5px solid #F97F61;
+	width:100%;
+	height: 650px;
+	margin: 2% auto 2%;
+	color:white;
+	font-family: 'Italiana', serif;
+	padding: 2% 0 2%;
+	clear: both;
+}
+
+.service-icon {
+	width:90px;
+}
+
+.serviceshead {
+	font-size: 1.5em;
+/*	border-bottom: 2px solid;*/
+	display: block;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	color:#F97F61;
+	line-height: 1em;
+}
+
+.secondary-post {
+	text-align: center;
+	width: 100%;
+	margin: 2% auto 2%;
+	padding-bottom: 10px;
+	border-top: 2px solid #F97F61;
+	border-bottom:2px solid #F97F61;
+	/*border-bottom: 2px solid #F97F61;*/
+/*	float:left;*/
+	font-size: 1em;
+	color: slategrey;
+	font-family: 'Italiana', serif;
+}
+
+.blog-icon {
+	padding-top:2%;
+	width: 90px;
+}
+
+/*.aside-bar {
+	float:right;
+	width:30%;
+	margin: 2% 0;
+	display: block;
+	font-size: 1.2em;
+	background-color: yellow;
+}*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.like-button {
+	margin: 2% auto 0;
+	display:block;
+	color:#00264d;
+	padding: 5px 15px;
+	font-size:0.8em;
+	font-family: 'Italiana', serif;
+}
+
+.submit-button {
+	margin: 2% auto 0;
+	display:block;
+	color:#00264d;
+	padding: 10px 20px;
+	font-size:1em;
+	font-family: 'Italiana', serif;
+}
+
+.fp-gallery {
+	background-image: url('IMG/Gallery/galleryimg.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 90%;
+	clear: both;
+	border-top: 5px solid #F97F61;
+	width:100%;
+	height: 500px;
+	margin: 2% auto 2%;
+	color:white;
+	/*font-family: 'Italiana', serif;*/
+	padding: 2% 0 2%;
+}
+
+.form {
+	border-top: 2px solid #F97F61;
+}
+
+.callout {
+	font-size: 1.25em;
+	border-bottom: 4px solid;
+	padding: 0 5px 1px;
+	margin-top: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	color:#40bf40;
+	line-height: 0em;
+}
+
+.callout-services {
+	font-size: 1.25em;
+	border-bottom: 4px solid;
+	padding: 0 5px 1px;
+	margin-top: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	line-height: 0em;
+}
+
+.callout-gallery {
+	font-size: 1.7em;
+	border-bottom: 4px solid;
+	padding-top:42%;
+	margin-top: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	color:#00264d;
+	line-height: 0em;
+}
+
+.contact-information {
+	color: slategrey;
+	text-align:center;
+	font-size: 1em;
+	margin:2% auto 2%;
+}
+
+
+/*.officemap {
+	display: block;
+	text-align: center;
+}*/
+
+/** ID Class **/
+
+/*#archive-blog-header {
+	background-color: #F97F61;
+	padding: 2px 5px;
+	font-weight: normal;
+}*/
+
+#sub-header {}
+
+#web-dev-ser {
+	width: 40%;
+	float:left;
+	padding: 5% 0 0 10%;
+}
+
+#mar-ser {
+	width:40%;
+	float: right;
+	padding: 5% 10% 0 0;
+}
+
+#calloutrepeat {
+	font-size: 1.25em;
+	border-bottom: 4px solid;
+	padding: 0 5px 1px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-family: 'Italiana', serif;
+	color:#00264d;
+}
+
+#img-left {
+	width: 30%;
+	float:left;
+	padding: 5% 0 0 5%;
+}
+
+#img-right {
+	width:30%;
+	float: right;
+	padding: 5% 5% 0 0;
+}
+
+#img-center {
+	width:30%;
+	height:80%;
+	padding:0;
+}
+
+#googleMap { 
+	width: 80%; 
+	height: 100%; 
+	margin: 2% auto 2%; 
+	display:block
+}
+
+#firstnameform {
+	padding: 10px 80px;
+	margin: 2% 0 10px;
+}
+
+#surnameform {
+	padding: 10px 80px;
+	margin: 5px 0 10px;
+}
+
+#emailform {
+	padding: 10px 80px;
+	margin: 5px 0 10px;
+}
+
+#telephoneform {
+	padding: 10px 80px;
+	margin: 5px 0 10px;
+}
+
+#facebook {
+	width:40px;
+	text-align:center;
+}
+
+
+#twitter {
+	width: 40px;
+	text-align:center;
+}
+
+
+
+/** Pseudo Classes */
+
+a:link {
+	text-decoration: none;
+	color: #336699;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #336699;
+}
+
+a:hover {
+	color: #F97F61;
+}
+
+}
+
+
+@media screen and (min-width:650px){
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+/** Type Selectors **/
+
+body {
+	font-size: 1em;
+	margin:0;
+	padding: 0;
+}
+
+header {
+	background-color: orange;
+	width: 100%;
+	margin-top: -25px;
+	background-image: url('IMG/backgrounds/kaboompics.com_In front of desk II.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 90%;
+	height:800px;
+	margin:auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 5em;
+	line-height: 1em;
+}
+
+h1, h2 {
+	font-weight: normal;
+	color:white;
+	font-family: 'Italiana', serif;
+
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.8em;
+	padding: 10px 0 0 0;
+}
+
+h2 span {
+	/*border-bottom: solid 3px;*/
+	font-weight: normal;
+	color:white;
+	font-family: 'Italiana', serif;
+}
+
+h3 span {
+	/*background-color:#C6C6C7;*/
+	display: inline-block;
+	padding: 2px 5px;
+	font-weight: normal;
+	border-bottom: 4px solid;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'Italiana', serif;
+	font-size: 0.85em;
+	color:#00264d;
+}
+
+h4 {
+	font-size: 3em;
+	font-style: normal;
+	border-bottom: 3px solid;
+	display: inline;;
+}
+
+input {
+	text-align: center;
+	font-family: 'Italiana', serif;
+	font-size: 1em;
+	color: slategrey;
+	border: 1.5px solid;
+}
+
+footer{
+	clear: both;
+	border-bottom: 10px solid #F97F61;
+	text-align: center;
+	margin-top:70px;
+	font-family: 'Italiana', serif;
+	font-size: 0.7em;
+}
+
+footer span {
+	font-size: 0.5em;
+	font-family: 'Italiana', serif;
+}
+
+/** Navigation **/
+
+nav {
+
+}
+
+ul {
+	padding: 10px;
+	text-align: center;
+	clear:both;
+/*	margin-top: -44px;*/
+color: white;
+
+}
+
+ul li {
+	display: inline;
+	padding: 5px;
+	margin: 0 10px;
+	font-size: 1.5em;
+	color:slategrey;
+	font-family: 'Italiana', serif;
+	font-weight:normal;
+}
+
+ul li img {
+	width:40px;
+	padding: 0 10px;
+
+}
+
+ol {
+	background-color: black;
+}
+
+ol li {
+	display: block;
+	background-color: yellow;
+}
+
+/** Class selectors **/
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	text-align:center;
+	font-size: 1em;
+}
+
+.NMR-title {
+	padding-bottom: 20px;
+	padding-top: 200px;
+	border-bottom: 3px solid;
+	display:inline-block;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.arrow {
+	display:block;
+	padding-bottom: 200px;
+	margin:0 auto;
+	width: 60px;
+}
+
+.intro {
+	text-align: center;
+	width: 80%;
+	margin: 2% auto 2%;
+	padding-bottom: 10px;
+	border-bottom:2px solid #F97F61;
+	border-top: 2px solid #F97F61;
+	font-size: 1.2em;
+	color: slategrey;
+	font-family: 'Italiana', serif;
+}
+
+.services {
+
+	background-color: #bfbfbf;
+	clear: both;
+	border-top: 5px solid #F97F61;
+	width:80%;
+	height: 600px;
+	margin: 2% auto 2%;
+	color:white;
+	font-family: 'Italiana', serif;
+	padding: 2% 0 2%;
+	clear: both;
+}
+
+.service-icon {
+	width:90px;
+}
+
+.serviceshead {
+	font-size: 1.5em;
+/*	border-bottom: 2px solid;*/
+	display: block;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	color:#F97F61;
+	line-height: 1em;
+}
+
+.secondary-post {
+	text-align: center;
+	width: 80%;
+	margin: 2% auto 2%;
+	padding-bottom: 10px;
+	border-top: 2px solid #F97F61;
+	border-bottom:2px solid #F97F61;
+	/*border-bottom: 2px solid #F97F61;*/
+/*	float:left;*/
+	font-size: 1.2em;
+	color: slategrey;
+	font-family: 'Italiana', serif;
+}
+
+.blog-icon {
+	padding-top:2%;
+	width: 90px;
+}
+
+/*.aside-bar {
+	float:right;
+	width:30%;
+	margin: 2% 0;
+	display: block;
+	font-size: 1.2em;
+	background-color: yellow;
+}*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.like-button {
+	margin: 2% auto 0;
+	display:block;
+	color:#00264d;
+	padding: 5px 15px;
+	font-size:0.8em;
+	font-family: 'Italiana', serif;
+}
+
+.submit-button {
+	margin: 2% auto 0;
+	display:block;
+	color:#00264d;
+	padding: 10px 20px;
+	font-size:1em;
+	font-family: 'Italiana', serif;
+}
+
+.fp-gallery {
+	background-image: url('IMG/Gallery/galleryimg.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 90%;
+	clear: both;
+	border-top: 5px solid #F97F61;
+	width:80%;
+	height: 500px;
+	margin: 2% auto 2%;
+	color:white;
+	/*font-family: 'Italiana', serif;*/
+	padding: 2% 0 2%;
+}
+
+.form {
+	border-top: 2px solid #F97F61;
+}
+
+.callout {
+	font-size: 1.25em;
+	border-bottom: 4px solid;
+	padding: 0 5px 1px;
+	margin-top: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	color:#40bf40;
+	line-height: 0em;
+}
+
+.callout-services {
+	font-size: 1.7em;
+	border-bottom: 4px solid;
+	padding: 0 5px 1px;
+	margin-top: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	line-height: 0em;
+}
+
+.callout-gallery {
+	font-size: 1.7em;
+	border-bottom: 4px solid;
+	padding-top:42%;
+	margin-top: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Italiana', serif;
+	color:#00264d;
+	line-height: 0em;
+}
+
+.contact-information {
+	color: slategrey;
+	text-align:center;
+	font-size: 0.8em;
+	margin:2% auto 2%;
+}
+
+
+/*.officemap {
+	display: block;
+	text-align: center;
+}*/
+
+/** ID Class **/
+
+/*#archive-blog-header {
+	background-color: #F97F61;
+	padding: 2px 5px;
+	font-weight: normal;
+}*/
+
+#sub-header {}
+
+#web-dev-ser {
+	width: 40%;
+	float:left;
+	padding: 5% 0 0 10%;
+}
+
+#mar-ser {
+	width:40%;
+	float: right;
+	padding: 5% 10% 0 0;
+}
+
+#calloutrepeat {
+	font-size: 1.25em;
+	border-bottom: 4px solid;
+	padding: 0 5px 1px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-family: 'Italiana', serif;
+	color:#00264d;
+}
+
+#img-left {
+	width: 30%;
+	float:left;
+	padding: 5% 0 0 5%;
+}
+
+#img-right {
+	width:30%;
+	float: right;
+	padding: 5% 5% 0 0;
+}
+
+#img-center {
+	width:30%;
+	height:80%;
+	padding:0;
+}
+
+#googleMap { 
+	width: 80%; 
+	height: 100%; 
+	margin: 2% auto 2%; 
+	display:block
+}
+
+#firstnameform {
+	padding: 10px 80px;
+	margin: 2% 0 10px;
+}
+
+#surnameform {
+	padding: 10px 80px;
+	margin: 5px 0 10px;
+}
+
+#emailform {
+	padding: 10px 80px;
+	margin: 5px 0 10px;
+}
+
+#telephoneform {
+	padding: 10px 80px;
+	margin: 5px 0 10px;
+}
+
+#facebook {
+	width:40px;
+	text-align:center;
+}
+
+
+#twitter {
+	width: 40px;
+	text-align:center;
+}
+
+
+
+/** Pseudo Classes */
+
+a:link {
+	text-decoration: none;
+	color: #336699;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #336699;
+}
+
+a:hover {
+	color: #F97F61;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
