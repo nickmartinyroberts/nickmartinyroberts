@@ -15,10 +15,14 @@ header {
 	background-color: orange;
 	width: 100%;
 	margin-top: -25px;
-	background-image: url('IMG/backgrounds/kaboompics.com_In front of desk II.jpg');
+/*	background-image: url('IMG/backgrounds/kaboompics.com_In front of desk II.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 50% 90%;
+	background-position: 50% 90%;*/
+	background: 
+				linear-gradient(to top, #fff, transparent),
+				orange url('IMG/backgrounds/kaboompics.com_In front of desk II.jpg') no-repeat center;
+	background-size: cover;
 	height:800px;
 	margin:auto;
 	text-align: center;
@@ -27,12 +31,14 @@ header {
 h1 {
 	font-size: 5em;
 	line-height: 1em;
+	text-shadow: 1px 1px 2px #d9d9d9;
 }
 
 h1, h2 {
 	font-weight: normal;
-	color:white;
+	color:#003366;
 	font-family: 'Italiana', serif;
+/*	text-shadow: 1px 2px 2px #FFF;*/
 
 }
 
@@ -45,7 +51,7 @@ h2 {
 h2 span {
 	/*border-bottom: solid 3px;*/
 	font-weight: normal;
-	color:white;
+	color:#003366;
 	font-family: 'Italiana', serif;
 }
 
@@ -111,7 +117,7 @@ ul li {
 	padding: 5px;
 	margin: 0 10px;
 	font-size: 1.5em;
-	color:slategrey;
+	color: #003366;
 	font-family: 'Italiana', serif;
 	font-weight:normal;
 }
@@ -154,6 +160,7 @@ ol li {
 	padding-bottom: 200px;
 	margin:0 auto;
 	width: 60px;
+	height: 60px;
 }
 
 .intro {
@@ -164,35 +171,46 @@ ol li {
 	border-bottom:2px solid #F97F61;
 	border-top: 2px solid #F97F61;
 	font-size: 1.2em;
-	color: slategrey;
-	font-family: 'Italiana', serif;
+	color: #003366;
+	/*font-family: 'Italiana', serif;*/
+	font-family: "Helvetica", serif;
+	font-style: normal;
 }
 
 .services {
 
-	background-color: #bfbfbf;
+	/*background-color: #bfbfbf;*/
+/*	background-color:#00e6ac;*/
+	background-color: #336699;
+	background-image: linear-gradient(to bottom, #336699,#b3cce6);
 	clear: both;
 	border-top: 5px solid #F97F61;
 	width:80%;
 	height: 600px;
 	margin: 2% auto 2%;
-	color:white;
-	font-family: 'Italiana', serif;
-	padding: 2% 0 2%;
+	color:#003366;
+	/*font-family: 'Italiana', serif;*/
+	font-family: 'Helvetica', serif;
+	padding: 1% 0 1%;
 	clear: both;
+	border-radius: 100px 5px;
+	font-size: 1em;
 }
 
 .service-icon {
-	width:90px;
+	width:70px;
+	height:70px;
+	margin-top: 60px;
 }
 
 .serviceshead {
-	font-size: 1.5em;
+	font-size: 1.2em;
 /*	border-bottom: 2px solid;*/
 	display: block;
-	padding-bottom: 10px;
+/*	padding-bottom: 10px;*/
 	text-transform: uppercase;
 	font-family: 'Italiana', serif;
+/*	font-family: 'Helvetica', serif;*/
 	color:#F97F61;
 	line-height: 1em;
 }
@@ -207,23 +225,17 @@ ol li {
 	/*border-bottom: 2px solid #F97F61;*/
 /*	float:left;*/
 	font-size: 1.2em;
-	color: slategrey;
-	font-family: 'Italiana', serif;
+	color: #003366;
+	/*font-family: 'Italiana', serif;*/
+	font-family: 'Helvetica', serif;
+	font-weight: normal;
 }
 
 .blog-icon {
 	padding-top:2%;
 	width: 90px;
+	height:90px;
 }
-
-/*.aside-bar {
-	float:right;
-	width:30%;
-	margin: 2% 0;
-	display: block;
-	font-size: 1.2em;
-	background-color: yellow;
-}*/
 
 .clearfix:after {
 	visibility: hidden;
@@ -253,10 +265,10 @@ ol li {
 }
 
 .fp-gallery {
-	background-image: url('IMG/Gallery/galleryimg.jpeg');
-	background-repeat: no-repeat;
+	
+	background: linear-gradient(to top, #fff, transparent),
+				url('IMG/Gallery/galleryimg.jpeg') no-repeat center;
 	background-size: cover;
-	background-position: 50% 90%;
 	clear: both;
 	border-top: 5px solid #F97F61;
 	width:80%;
@@ -307,7 +319,7 @@ ol li {
 }
 
 .callout-gallery {
-	font-size: 1.7em;
+	font-size: 2.1em;
 	border-bottom: 4px solid;
 	padding-top:42%;
 	margin-top: 20px;
@@ -316,41 +328,32 @@ ol li {
 	font-family: 'Italiana', serif;
 	color:#00264d;
 	line-height: 0em;
+	text-shadow: 0.5px .5px 2px #FFF;
 }
 
 .contact-information {
-	color: slategrey;
+	color: #003366;
 	text-align:center;
 	font-size: 0.8em;
 	margin:2% auto 2%;
 }
 
-
-/*.officemap {
-	display: block;
-	text-align: center;
-}*/
-
-/** ID Class **/
-
-/*#archive-blog-header {
-	background-color: #F97F61;
-	padding: 2px 5px;
-	font-weight: normal;
-}*/
-
-#sub-header {}
+#sub-header {
+	letter-spacing: 0.1em;
+}
 
 #web-dev-ser {
-	width: 40%;
+	width: 24%;
 	float:left;
-	padding: 5% 0 0 10%;
+	padding-right:1%;
+	padding-left:1%;
 }
 
 #mar-ser {
-	width:40%;
+	width:24%;
 	float: right;
-	padding: 5% 10% 0 0;
+	padding-left:1%;
+	padding-right:1%;
 }
 
 #calloutrepeat {
@@ -362,24 +365,6 @@ ol li {
 	margin-bottom: 20px;
 	font-family: 'Italiana', serif;
 	color:#00264d;
-}
-
-#img-left {
-	width: 30%;
-	float:left;
-	padding: 5% 0 0 5%;
-}
-
-#img-right {
-	width:30%;
-	float: right;
-	padding: 5% 5% 0 0;
-}
-
-#img-center {
-	width:30%;
-	height:80%;
-	padding:0;
 }
 
 #googleMap { 
@@ -411,12 +396,14 @@ ol li {
 
 #facebook {
 	width:40px;
+	height: 40px;
 	text-align:center;
 }
 
 
 #twitter {
 	width: 40px;
+	height: 40px;
 	text-align:center;
 }
 
@@ -426,17 +413,140 @@ ol li {
 
 a:link {
 	text-decoration: none;
-	color: #336699;
+	color: #003366;
 }
 
 a:visited {
 	text-decoration: none;
-	color: #336699;
+	color: #003366;
 }
 
 a:hover {
 	color: #F97F61;
 }
+
+
+/** Media Queries **/
+
+@media (max-width: 1328px){
+
+	#googleMap { 
+		display:none;
+}
+	.callout-gallery {
+		padding-top: 44%;
+	}
+}
+
+@media (max-width: 851px){
+
+	h1{
+		font-size:4em;
+	}
+
+	.intro{
+		font-size: 1em;
+	}
+
+	.secondary-post{
+		font-size: 1em;
+	}
+
+	.callout-gallery {
+		padding-top: 68%;
+	}
+}
+
+@media (max-width: 721px){
+	.wrapper {
+		width:100%;
+	}
+
+	.callout-gallery {
+		padding-top: 60%;
+	}
+}
+
+@media (max-width: 567px){
+
+	h1{
+		font-size: 3em;
+	}
+
+	header{
+		height: 650px;
+	}
+
+	.callout-services {
+		font-size:1.5em;
+	}
+
+	.callout-gallery {
+		padding-top: 85%;
+	}
+
+}
+
+@media (max-width: 505px){
+
+	.services {
+		font-size: 0.9em;
+	}
+
+	.callout-services {
+		font-size: 1.5em;
+	}
+
+
+
+}
+
+
+@media (max-width: 440px){
+
+	h1{
+		font-size: 2.5em;
+	}
+
+}
+
+@media (max-width: 404px){
+
+	.callout-services{
+		font-size: 1.2em;
+	}
+
+	header{
+		width:100%;
+	}
+
+	h1{
+		font-size: 3.4em;
+	}
+
+	.NMR-title {
+		padding-top:100px;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	.services {
+		font-size: 0.8em;
+	}
+
+	ul li{
+		font-size: 1.2em;
+	}
+}
+
+
+
+
+
+
+
 
 
 
